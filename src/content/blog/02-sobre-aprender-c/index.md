@@ -4,6 +4,11 @@ description: "Domínio do sistema operacional"
 date: "Sep 29 2026"
 ---
 
+# 0. Principais conceitos e referências
+- Eu já uso no dia a dia typescript e havia começado a estudar rust, mas surgiu a necessidade de aprender C por conta da faculdade e da grade curricular do Open Source Society University. Mais especificamente o livro OSTEP (operating systems: three easy pieces).
+- A sintaxe em si da linguagem C e seus principais componentes foram fáceis de se aprender uma vez que já conheço bem pelo menos uma linguagem com tipagem estática.
+- O foco agora está em dominar o coração do C: o gerenciamento manual de memória e algumas das principais bibliotecas como a <stdio.h>, a <stdlib.h> e a <string.h>
+
 # 1. Pipeline de Compilação e Organização do Projeto
 - Pré-processador: Substituição textual via diretivas (`#include`, `#define`, `#ifdef`) e o uso de Include Guards (`#ifndef` ou `#pragma once`).
 - Separação de arquivos: Divisão clara entre interfaces (`.h`) e implementações (`.c`).
